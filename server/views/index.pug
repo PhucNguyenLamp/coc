@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1 Editor
+  //- make a form that gets data from a field
+  form#myform(method='POST' action='/editor')
+    textarea#input(name="data", rows="10",columns="" placeholder="Enter your code")
+    br
+    button(type='submit') Run 

@@ -1,0 +1,35 @@
+.containerTwo {
+    position: relative;
+    display: block;
+}
+
+.navMenu {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    height: 100px;
+}
+
+.navList {
+    background-color: #6AD4DD;
+    width: 100%;
+    padding-top: 0.25rem;
+}
+
+.navLink {
+    font-weight: 650;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 1.5rem;
+    align-items: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: white
+}
+
+.navLink:hover {
+    background-color: aqua;
+}

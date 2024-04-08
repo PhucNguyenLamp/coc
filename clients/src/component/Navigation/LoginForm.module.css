@@ -1,0 +1,149 @@
+.formBackground {
+    background-color: #eef2ff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+
+
+.formContainer {
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+@media screen and (min-width: 950px) {
+    .formContainer {
+        background-color: white;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        height: 100%;
+        border-radius: 10px;
+        width: 70%;
+    }
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    .formContainer {
+        background-color: white;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        height: 100%;
+        border-radius: 10px;
+        width: 45%;
+    }
+}
+
+
+.divForm {
+    padding: 10px;
+    margin: 20px 20px;
+    background-color: transparent;
+}
+
+.titleLogin {
+    text-align: center;
+    background-color: transparent;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.formForm {
+    background-color: transparent;
+}
+
+.inputName {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.nameType {
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.nameTypeID {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    font-size: 16px;
+    outline: none;
+}
+
+.nameTypeID:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
+
+
+.buttonWrapper {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.buttonLogin {
+    margin-top: 20px;
+    height: 50px;
+
+
+    width: 300px;
+    color: white;
+    background-color: #6366f1;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.buttonLogin:hover {
+    background-color: #7aa2e3;
+}
+
+.buttonLogin:active {
+    background-color: #7aa2e3;
+    transform: translateY(3px);
+}
+
+.LoginGithub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.github {
+    margin-top: 10px;
+    display: inline-flex;
+    column-gap: 0.25rem;
+    padding: 0.5rem 1rem; /* Add padding for better aesthetics */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    background-color: #222; /* Set blackish background color */
+    color: #fff; /* Set text color to white */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add transition effect */
+
+    /* Center text and icon vertically */
+    align-items: center;
+}
+
+.github:hover {
+    background-color: #444; /* Darken the background color on hover */
+}
+
+.github:active {
+    background-color: #666; /* Darken the background color on click */
+}
+
+
